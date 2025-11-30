@@ -13,7 +13,7 @@ if getgenv().RaelHubAutoTranslator then
   GuiModule.setValueBar({Text="Finishing"}
   , 1)
 elseif getgenv().RaelHubAutoTranslator == false then
-  GuiModule.RunInterface({TextThanks = "Thank you for using rael hub"})
+  GuiModule.RunInterface({TextThanks = "Thank you for using Apple Cat hub"})
   GuiModule.setValueBar({Text="Finishing"}
   , 1)
 end
