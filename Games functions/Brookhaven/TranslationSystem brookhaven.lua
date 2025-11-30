@@ -3,9 +3,9 @@ local RaelHubTradutor = loadstring(game:HttpGet("https://raw.githubusercontent.c
 
 if getgenv and getgenv().RaelHubAutoTranslator == nil then
   getgenv().RaelHubAutoTranslator = true
-  warn("RaelHubAutoTranslator was created and set to true.")
+  warn("AppleHubAutoTranslator was created and set to true.")
 else
-  warn("RaelHubAutoTranslator already exists, keeping the current value.")
+  warn("AppleHubAutoTranslator already exists, keeping the current value.")
 end
 
 if getgenv().RaelHubAutoTranslator then
@@ -19,7 +19,7 @@ elseif getgenv().RaelHubAutoTranslator == false then
 end
 
 local TranslationModule = {}
-local configFolder = "RaelHub brookhaven"
+local configFolder = "AppleHub brookhaven"
 
 -- Serviço de localização do Roblox
 local LocalizationService = game:GetService("LocalizationService")
